@@ -8,3 +8,8 @@ Make sure you have the necessary Python packages installed. You can install them
 
 ```bash
 pip install pandas scikit-learn numpy
+```
+
+## Description
+The script fetches a dataset from OpenML (credit-g dataset) and identifies the target variable. It then extracts various meta-features, including skewness, kurtosis, correlation matrix, covariance matrix, and mutual information. The calculated features are printed to the console.
+
