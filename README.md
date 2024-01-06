@@ -1,6 +1,6 @@
-# Feature Analysis README
+# Meta Features Analysis
 
-This Visual Studio Code project performs feature analysis on a given dataset, focusing on meta-features such as skewness, kurtosis, correlation, covariance, and mutual information. It utilizes the scikit-learn and pandas libraries for data manipulation and feature selection.
+This Visual Studio Code project performs the Meta feature analysis on a given dataset, focusing on meta-features such as skewness, kurtosis, correlation, covariance, and mutual information. It utilizes the scikit-learn and pandas libraries for data manipulation and feature selection.
 
 ## Prerequisites
 
