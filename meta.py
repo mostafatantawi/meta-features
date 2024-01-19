@@ -5,9 +5,9 @@ from sklearn.feature_selection import mutual_info_classif
 from scipy.stats import entropy 
 
 
-def extract_meta_features(dataset):
+def extract_meta_features(dataset_name):
     # Fetch the dataset from OpenML
-    dataset = datasets.fetch_openml('credit-g', version=1, parser='auto', as_frame=True)
+    dataset = datasets.fetch_openml(dataset_name, version=1, parser='auto', as_frame=True)
     # Identify the target variable
     target_variable = 'class'
     # Extract meta-features
