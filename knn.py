@@ -65,7 +65,7 @@ import pandas as pd
 
 datasets_list = []
 
-resource_ids = ['R345042', 'R343217', 'R345011', 'R345003', 'R345031']
+resource_ids = ['R345042', 'R343217', 'R345011', 'R345003', 'R345031', 'R346033', 'R346039', 'R346046', 'R116789', 'R346061']
 
 for resource_id in resource_ids:
     dataset = get_dataset_for_resource(resource_id)
@@ -91,7 +91,7 @@ statements = orkg.statements.get_by_subject(subject_id='R343217')
 import json
 import requests
 
-resource_ids = ['R345042', 'R343217', 'R345011', 'R345003', 'R345031']
+resource_ids = ['R345042', 'R343217', 'R345011', 'R345003', 'R345031', 'R346033', 'R346039', 'R346046', 'R116789', 'R346061']
 all_data = []
 for resource_id in resource_ids:
     response = requests.get(f'https://sandbox.orkg.org/api/statements/subject/{resource_id}', headers={'Accept': 'application/json'})
@@ -114,7 +114,7 @@ df.head()
 import pandas as pd
 import requests
 
-resource_ids = ['R345042', 'R343217', 'R345011', 'R345003', 'R345031']
+resource_ids = ['R345042', 'R343217', 'R345011', 'R345003', 'R345031', 'R346033', 'R346039', 'R346046', 'R116789', 'R346061']
 all_dfs = []
 
 for resource_id in resource_ids:
